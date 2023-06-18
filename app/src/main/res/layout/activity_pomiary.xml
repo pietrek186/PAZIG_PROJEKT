@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Tabela">
+
+
+    <Button
+        android:id="@+id/wstecz_button"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/lavender"
+        android:gravity="center"
+        android:text="Wstecz"
+        android:textSize="18sp" />
+
+
+
+    <EditText
+        android:minHeight="48dp"
+        android:id="@+id/ciśnienie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wyniki pomiarów ciśnienia"
+        android:layout_marginTop="60dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:minHeight="48dp"
+        android:id="@+id/puls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ciśnienie"
+        android:hint="Wyniki pomiarów pulsu"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3d455b"
+        android:layout_alignParentLeft="true" >
+
+        <HorizontalScrollView
+            android:id="@+id/hscrll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/zatwierdz"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/lavender"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:textSize="18sp"
+        android:hint="Zatwierdź"
+        android:textColorHint="#FFFFFF" />
+
+
+</RelativeLayout>

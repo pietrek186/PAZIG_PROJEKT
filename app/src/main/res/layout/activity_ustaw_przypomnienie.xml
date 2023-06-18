@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Ustaw_przypomnienie">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Ustaw przypomnienie"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedTime"
+        android:layout_marginTop="100dp"
+        android:text = "Brak ustawionych przypomnień"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36dp"/>
+
+
+    <Button
+        android:id="@+id/selectedTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Wybierz czas"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/setAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="26dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Ustaw alarm"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/cancelAlarmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="26dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Usuń alarm"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/wstecz_button"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="100dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Wstecz"
+        android:textSize="18dp"/>
+
+</LinearLayout>
+
+

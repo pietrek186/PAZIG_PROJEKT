@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:id="@+id/pomiaryName"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:text="Pomiar"
+        android:textColor="@color/white"
+        android:layout_marginEnd="20dp"
+        android:maxLines="1"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/czasPic"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/pomiaryName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/zegar" />
+
+    <TextView
+        android:id="@+id/czas"
+        android:layout_toEndOf="@+id/czasPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@+id/pomiaryName"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/pomiaryCiśnienia"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/czas"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/cisnienie" />
+
+    <TextView
+        android:id="@+id/pomiarMessage"
+        android:layout_toEndOf="@+id/pomiaryCiśnienia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/czas"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/border2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="#808080"/>
+
+
+</RelativeLayout>

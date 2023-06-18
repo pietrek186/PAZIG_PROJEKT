@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "594182829070",
+    "project_id": "aplikacja-pomiary",
+    "storage_bucket": "aplikacja-pomiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594182829070:android:29d3b153407e0833e6b85f",
+        "android_client_info": {
+          "package_name": "com.example.aplikacjapomiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594182829070-6hfpgpqc5j72e2i4pkpk5pnm1t3qi27j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD38p_gLnMizEXoQXQOTXU6wJ1-c-fypJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594182829070-6hfpgpqc5j72e2i4pkpk5pnm1t3qi27j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
